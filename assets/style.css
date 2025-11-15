@@ -90,8 +90,8 @@ nav {
 }
 
 .logo img {
-  height: 42px ;
-  width: auto ;
+  height: 42px !important;
+  width: auto !important ;
 }
 
 .logo-text {
