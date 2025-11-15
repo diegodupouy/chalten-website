@@ -2,45 +2,208 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Chalten SA – Investment & Strategic Advisory</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Chalten SA is a Swiss investment and strategic advisory firm partnering with founders to scale life science and deeptech companies." />
   <link rel="stylesheet" href="assets/style.css" />
 </head>
 
 <body>
-  <div class="container">
+  <div class="page">
+    <div class="container">
 
-    <nav>
-      <div class="logo">
-        <div class="mountain"></div>
-        Chalten SA
-      </div>
+      <!-- NAV -->
+      <nav>
+        <div class="logo">
+          <img src="assets/images/logo-chalten.png" alt="Chalten SA logo" />
+          <div class="logo-text">
+            <span class="logo-title">Chalten SA</span>
+            <span class="logo-subtitle">Investment & Advisory</span>
+          </div>
+        </div>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#focus">Focus</a>
+          <a href="#team">Team</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
 
-      <div>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="services.html">What We Do</a>
-        <a href="contact.html">Contact</a>
-      </div>
-    </nav>
+      <!-- HERO -->
+      <section class="hero">
+        <div>
+          <div class="hero-tag">Lausanne · Switzerland</div>
+          <h1>
+            Partnering with founders to scale
+            <span>life science & deeptech</span> companies.
+          </h1>
+          <p>
+            Chalten SA is a Swiss investment and strategic advisory firm founded by entrepreneurs with hands-on experience
+            building and exiting a spatial biology instrumentation company.
+          </p>
+          <div class="hero-meta">
+            From early validation to industrialization and global commercialization, we work with founders as long-term partners.
+          </div>
+          <div class="hero-actions">
+            <a href="#contact" class="button button-primary">Get in touch</a>
+            <a href="#about" class="button button-secondary">Learn more</a>
+          </div>
+        </div>
 
-    <section>
-      <h1>Partnering with founders to scale <span style="color:#38bdf8">life science & deeptech</span> companies.</h1>
-      <p>
-        Chalten SA is a Swiss investment and advisory firm founded by experienced entrepreneurs in life sciences and biotech instrumentation.
-      </p>
-    </section>
+        <aside class="hero-card">
+          <h2>What we do</h2>
+          <ul>
+            <li>Angel investments in early-stage companies</li>
+            <li>Strategic advisory for founders and boards</li>
+            <li>Support across product, go-to-market, and scale-up</li>
+            <li>Focus on life sciences, diagnostics & deeptech</li>
+          </ul>
+        </aside>
+      </section>
 
-    <section class="card">
-      <h2>What we do</h2>
-      <ul>
-        <li>Angel investments in early-stage startups</li>
-        <li>Strategic advisory for founders and boards</li>
-        <li>Support on product, go-to-market, and scale-up</li>
-        <li>Focus on life sciences, diagnostics & deeptech</li>
-      </ul>
-    </section>
+      <!-- ABOUT + MOUNTAIN -->
+      <section id="about" class="section">
+        <div class="section-header">
+          <div class="section-kicker">Story</div>
+          <h2 class="section-title">Rooted in entrepreneurship & inspired by Chaltén.</h2>
+        </div>
 
+        <p style="color: var(--muted); max-width: 720px; margin-bottom: 12px;">
+          Chalten SA was founded after a decade spent building Lunaphore from an EPFL spin-off into a global spatial biology
+          company, acquired by Bio-Techne in 2023. Having experienced the full journey from prototype to industrial product,
+          we now support founders combining scientific depth with ambitious execution.
+        </p>
+        <p style="color: var(--muted); max-width: 720px;">
+          The name Chalten comes from Cerro Chaltén (Fitz Roy) in Patagonia: a reminder to keep clarity of vision, respect for
+          the environment, and resilience on the way to the summit.
+        </p>
+
+        <div class="mountain-band">
+          <img src="assets/images/fitzroy-1.jpg" alt="Mount Fitz Roy, Patagonia" class="mountain-image" />
+          <div class="mountain-overlay"></div>
+          <div class="mountain-text">
+            <h2>Inspired by Fitz Roy.</h2>
+            <p>
+              We look for teams that combine scientific excellence with the grit and humility required to build durable
+              companies in complex, regulated markets.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- FOCUS -->
+      <section id="focus" class="section">
+        <div class="section-header">
+          <div class="section-kicker">Focus</div>
+          <h2 class="section-title">Where we can be most helpful.</h2>
+        </div>
+
+        <div class="cards">
+          <div class="card">
+            <h3>Life sciences & diagnostics</h3>
+            <p>
+              Instruments, reagents, and software platforms that enable better research, diagnostics, and therapeutic decisions.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Spatial biology & pathology</h3>
+            <p>
+              Technologies that bring high-dimensional information into tissue imaging, analysis, and clinical workflows.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Deeptech & enabling tools</h3>
+            <p>
+              Automation, data, and engineering solutions that unlock new capabilities in labs, manufacturing, or healthcare.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- TEAM -->
+      <section id="team" class="section">
+        <div class="section-header">
+          <div class="section-kicker">Team</div>
+          <h2 class="section-title">Entrepreneurs working with entrepreneurs.</h2>
+        </div>
+
+        <div class="team-grid">
+          <article class="person-card">
+            <div class="person-photo">
+              <img src="assets/images/diego.jpg" alt="Portrait of Diego G. Dupouy" />
+            </div>
+            <div>
+              <div class="person-name">Diego G. Dupouy</div>
+              <div class="person-role">Founder · Investor & Advisor</div>
+              <div class="person-text">
+                Co-founder and former CTO of Lunaphore, leading the company from idea to acquisition by Bio-Techne.
+                Experience across R&D, product, commercial strategy, and partnerships in spatial biology.
+              </div>
+            </div>
+          </article>
+
+          <article class="person-card">
+            <div class="person-photo">
+              <img src="assets/images/giovanna.jpg" alt="Portrait of Giovanna" />
+            </div>
+            <div>
+              <div class="person-name">Giovanna</div>
+              <div class="person-role">Advisor · Strategy & Operations</div>
+              <div class="person-text">
+                Background in life sciences and operational leadership. Supports founders on organization, processes,
+                and scaling teams in complex environments.
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="section">
+        <div class="section-header">
+          <div class="section-kicker">Contact</div>
+          <h2 class="section-title">For founders and partners.</h2>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-card">
+            <h3>Get in touch</h3>
+            <p>
+              For introductions, opportunities, or collaboration:
+            </p>
+            <p>
+              Email:
+              <a href="mailto:hello@chalten.swiss">hello@chalten.swiss</a>
+            </p>
+            <p>
+              LinkedIn:
+              <a href="https://www.linkedin.com/in/diego-g-dupouy-2706961a/" target="_blank" rel="noopener">
+                Diego G. Dupouy
+              </a>
+            </p>
+          </div>
+
+          <div class="contact-card">
+            <h3>Typical stage</h3>
+            <p>
+              Early-stage companies (pre-seed to Series A) where we can be actively involved as investors, advisors,
+              or board members, especially in Europe and Switzerland.
+            </p>
+          </div>
+        </div>
+      </section>
+
+    </div>
   </div>
+
+  <footer>
+    <div class="container" style="padding-inline:0;">
+      <span>© <span id="year"></span> Chalten SA. All rights reserved.</span>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
